@@ -7,23 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2C9B4327B3F669A1E7924B /* Pods_Toprak_Hotel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000231C7354B554B5B077F65 /* Pods_Toprak_Hotel.framework */; };
+		420F644D21DE34E300A5B038 /* OdalarTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F644C21DE34E300A5B038 /* OdalarTVC.swift */; };
+		420F645221DE422E00A5B038 /* standart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F644F21DE422D00A5B038 /* standart.jpg */; };
+		420F645321DE422E00A5B038 /* vip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F645021DE422D00A5B038 /* vip.jpg */; };
+		420F645421DE422E00A5B038 /* junior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F645121DE422D00A5B038 /* junior.jpg */; };
+		420F645621DE4E5000A5B038 /* RestaurantNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F645521DE4E5000A5B038 /* RestaurantNavVC.swift */; };
+		420F645821DE4E6A00A5B038 /* RestaurantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F645721DE4E6A00A5B038 /* RestaurantVC.swift */; };
+		420F645F21DE5C1400A5B038 /* 3r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F645C21DE5C1300A5B038 /* 3r.jpg */; };
+		420F646021DE5C1400A5B038 /* 2r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F645D21DE5C1400A5B038 /* 2r.jpg */; };
+		420F646121DE5C1400A5B038 /* 1r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F645E21DE5C1400A5B038 /* 1r.jpg */; };
+		420F646421DE653300A5B038 /* ToplantiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F646321DE653300A5B038 /* ToplantiVC.swift */; };
+		420F646621DE655E00A5B038 /* ToplantiNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F646521DE655E00A5B038 /* ToplantiNavVC.swift */; };
+		420F646A21DE9BFD00A5B038 /* 3t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F646721DE9BFB00A5B038 /* 3t.jpg */; };
+		420F646B21DE9BFD00A5B038 /* 1t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F646821DE9BFC00A5B038 /* 1t.jpg */; };
+		420F646C21DE9BFD00A5B038 /* 2t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F646921DE9BFC00A5B038 /* 2t.jpg */; };
+		420F646E21DE9EDB00A5B038 /* BalayiNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F646D21DE9EDB00A5B038 /* BalayiNavVC.swift */; };
+		420F647021DE9EF400A5B038 /* BalayiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F646F21DE9EF400A5B038 /* BalayiVC.swift */; };
+		420F647321DEA1C100A5B038 /* standart-oda-balayi-konsepti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F647221DEA1C000A5B038 /* standart-oda-balayi-konsepti.jpg */; };
+		4225FD1A21E4AD5F00DE73DF /* EtkinlikDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4225FD1921E4AD5F00DE73DF /* EtkinlikDetayVC.swift */; };
+		4225FD1C21E4AFC200DE73DF /* EtkinlikDetayNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4225FD1B21E4AFC200DE73DF /* EtkinlikDetayNavVC.swift */; };
+		422DAC442216EAC2007914B5 /* rezervasyonNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422DAC432216EAC2007914B5 /* rezervasyonNavVC.swift */; };
+		422DAC462216EAE7007914B5 /* rezervasyonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422DAC452216EAE7007914B5 /* rezervasyonVC.swift */; };
+		4245E87921E38FC30044956C /* EtkinliklerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4245E87821E38FC30044956C /* EtkinliklerVC.swift */; };
+		4245E87B21E38FE20044956C /* EtkinliklerNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4245E87A21E38FE20044956C /* EtkinliklerNavVC.swift */; };
+		4245E87E21E392ED0044956C /* EtkinliklerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4245E87D21E392ED0044956C /* EtkinliklerTVC.swift */; };
+		4245E88321E3A6EA0044956C /* e2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4245E87F21E3A6E90044956C /* e2.jpg */; };
+		4245E88421E3A6EA0044956C /* e3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4245E88021E3A6E90044956C /* e3.jpg */; };
+		4245E88521E3A6EA0044956C /* e1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4245E88121E3A6E90044956C /* e1.jpg */; };
+		4245E88621E3A6EA0044956C /* e4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4245E88221E3A6EA0044956C /* e4.jpg */; };
+		42A883AE21DE25FF0039ADA5 /* OdalarNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A883AD21DE25FF0039ADA5 /* OdalarNavVC.swift */; };
+		42A883B121DE264D0039ADA5 /* OdalarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A883B021DE264D0039ADA5 /* OdalarVC.swift */; };
+		42BFF2DA21E63E0700577C73 /* KayakMerkeziNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BFF2D921E63E0700577C73 /* KayakMerkeziNavVC.swift */; };
+		42BFF2DC21E63E1F00577C73 /* KayakMerkeziVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BFF2DB21E63E1F00577C73 /* KayakMerkeziVC.swift */; };
+		42BFF2DE21E644BC00577C73 /* SkiMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42BFF2DD21E644BC00577C73 /* SkiMap.jpg */; };
 		42DBEE6821DCBAE6001A5AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DBEE6721DCBAE6001A5AC9 /* AppDelegate.swift */; };
-		42DBEE6A21DCBAE6001A5AC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DBEE6921DCBAE6001A5AC9 /* ViewController.swift */; };
+		42DBEE6A21DCBAE6001A5AC9 /* GirisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DBEE6921DCBAE6001A5AC9 /* GirisVC.swift */; };
 		42DBEE6D21DCBAE6001A5AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE6B21DCBAE6001A5AC9 /* Main.storyboard */; };
 		42DBEE7021DCBAE6001A5AC9 /* Toprak_Hotel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42DBEE6E21DCBAE6001A5AC9 /* Toprak_Hotel.xcdatamodeld */; };
 		42DBEE7221DCBAE8001A5AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE7121DCBAE8001A5AC9 /* Assets.xcassets */; };
 		42DBEE7521DCBAE8001A5AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE7321DCBAE8001A5AC9 /* LaunchScreen.storyboard */; };
+		42DBEE7D21DCF31D001A5AC9 /* MainNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DBEE7C21DCF31D001A5AC9 /* MainNavVC.swift */; };
+		42DBEE7F21DCF337001A5AC9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DBEE7E21DCF337001A5AC9 /* MainVC.swift */; };
+		42DBEE8F21DD00BE001A5AC9 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE8921DD00BD001A5AC9 /* 3.png */; };
+		42DBEE9021DD00BE001A5AC9 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE8A21DD00BD001A5AC9 /* 4.png */; };
+		42DBEE9121DD00BE001A5AC9 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE8B21DD00BD001A5AC9 /* 5.png */; };
+		42DBEE9221DD00BE001A5AC9 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE8C21DD00BE001A5AC9 /* 6.png */; };
+		42DBEE9321DD00BE001A5AC9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE8D21DD00BE001A5AC9 /* 2.png */; };
+		42DBEE9421DD00BE001A5AC9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE8E21DD00BE001A5AC9 /* 1.png */; };
+		42DBEE9821DD076A001A5AC9 /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DBEE9721DD076A001A5AC9 /* MainTVC.swift */; };
+		42F1E66A21E6849300874CDC /* IletisimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F1E66921E6849300874CDC /* IletisimVC.swift */; };
+		42F1E66C21E684D200874CDC /* IletisimNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F1E66B21E684D200874CDC /* IletisimNavVC.swift */; };
+		42F1E66F21E684F400874CDC /* IletisimTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F1E66D21E684F400874CDC /* IletisimTVC.swift */; };
+		42F1E67021E684F400874CDC /* IletisimTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F1E66E21E684F400874CDC /* IletisimTVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000231C7354B554B5B077F65 /* Pods_Toprak_Hotel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Toprak_Hotel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		420F644C21DE34E300A5B038 /* OdalarTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdalarTVC.swift; sourceTree = "<group>"; };
+		420F644F21DE422D00A5B038 /* standart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = standart.jpg; sourceTree = "<group>"; };
+		420F645021DE422D00A5B038 /* vip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vip.jpg; sourceTree = "<group>"; };
+		420F645121DE422D00A5B038 /* junior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = junior.jpg; sourceTree = "<group>"; };
+		420F645521DE4E5000A5B038 /* RestaurantNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantNavVC.swift; sourceTree = "<group>"; };
+		420F645721DE4E6A00A5B038 /* RestaurantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantVC.swift; sourceTree = "<group>"; };
+		420F645C21DE5C1300A5B038 /* 3r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3r.jpg; sourceTree = "<group>"; };
+		420F645D21DE5C1400A5B038 /* 2r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2r.jpg; sourceTree = "<group>"; };
+		420F645E21DE5C1400A5B038 /* 1r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1r.jpg; sourceTree = "<group>"; };
+		420F646321DE653300A5B038 /* ToplantiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToplantiVC.swift; sourceTree = "<group>"; };
+		420F646521DE655E00A5B038 /* ToplantiNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToplantiNavVC.swift; sourceTree = "<group>"; };
+		420F646721DE9BFB00A5B038 /* 3t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3t.jpg; sourceTree = "<group>"; };
+		420F646821DE9BFC00A5B038 /* 1t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1t.jpg; sourceTree = "<group>"; };
+		420F646921DE9BFC00A5B038 /* 2t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2t.jpg; sourceTree = "<group>"; };
+		420F646D21DE9EDB00A5B038 /* BalayiNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalayiNavVC.swift; sourceTree = "<group>"; };
+		420F646F21DE9EF400A5B038 /* BalayiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalayiVC.swift; sourceTree = "<group>"; };
+		420F647221DEA1C000A5B038 /* standart-oda-balayi-konsepti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "standart-oda-balayi-konsepti.jpg"; sourceTree = "<group>"; };
+		4225FD1921E4AD5F00DE73DF /* EtkinlikDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkinlikDetayVC.swift; sourceTree = "<group>"; };
+		4225FD1B21E4AFC200DE73DF /* EtkinlikDetayNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkinlikDetayNavVC.swift; sourceTree = "<group>"; };
+		422DAC432216EAC2007914B5 /* rezervasyonNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rezervasyonNavVC.swift; sourceTree = "<group>"; };
+		422DAC452216EAE7007914B5 /* rezervasyonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rezervasyonVC.swift; sourceTree = "<group>"; };
+		4245E87821E38FC30044956C /* EtkinliklerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkinliklerVC.swift; sourceTree = "<group>"; };
+		4245E87A21E38FE20044956C /* EtkinliklerNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkinliklerNavVC.swift; sourceTree = "<group>"; };
+		4245E87D21E392ED0044956C /* EtkinliklerTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkinliklerTVC.swift; sourceTree = "<group>"; };
+		4245E87F21E3A6E90044956C /* e2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e2.jpg; sourceTree = "<group>"; };
+		4245E88021E3A6E90044956C /* e3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e3.jpg; sourceTree = "<group>"; };
+		4245E88121E3A6E90044956C /* e1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e1.jpg; sourceTree = "<group>"; };
+		4245E88221E3A6EA0044956C /* e4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e4.jpg; sourceTree = "<group>"; };
+		42A883AD21DE25FF0039ADA5 /* OdalarNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdalarNavVC.swift; sourceTree = "<group>"; };
+		42A883B021DE264D0039ADA5 /* OdalarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdalarVC.swift; sourceTree = "<group>"; };
+		42BFF2D921E63E0700577C73 /* KayakMerkeziNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakMerkeziNavVC.swift; sourceTree = "<group>"; };
+		42BFF2DB21E63E1F00577C73 /* KayakMerkeziVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakMerkeziVC.swift; sourceTree = "<group>"; };
+		42BFF2DD21E644BC00577C73 /* SkiMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SkiMap.jpg; sourceTree = "<group>"; };
 		42DBEE6421DCBAE6001A5AC9 /* Toprak Hotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toprak Hotel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DBEE6721DCBAE6001A5AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42DBEE6921DCBAE6001A5AC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42DBEE6921DCBAE6001A5AC9 /* GirisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisVC.swift; sourceTree = "<group>"; };
 		42DBEE6C21DCBAE6001A5AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42DBEE6F21DCBAE6001A5AC9 /* Toprak_Hotel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Toprak_Hotel.xcdatamodel; sourceTree = "<group>"; };
 		42DBEE7121DCBAE8001A5AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42DBEE7421DCBAE8001A5AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42DBEE7621DCBAE8001A5AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DBEE7C21DCF31D001A5AC9 /* MainNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavVC.swift; sourceTree = "<group>"; };
+		42DBEE7E21DCF337001A5AC9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		42DBEE8921DD00BD001A5AC9 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		42DBEE8A21DD00BD001A5AC9 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		42DBEE8B21DD00BD001A5AC9 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		42DBEE8C21DD00BE001A5AC9 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		42DBEE8D21DD00BE001A5AC9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		42DBEE8E21DD00BE001A5AC9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		42DBEE9721DD076A001A5AC9 /* MainTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
+		42F1E66921E6849300874CDC /* IletisimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IletisimVC.swift; sourceTree = "<group>"; };
+		42F1E66B21E684D200874CDC /* IletisimNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IletisimNavVC.swift; sourceTree = "<group>"; };
+		42F1E66D21E684F400874CDC /* IletisimTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IletisimTVC.swift; sourceTree = "<group>"; };
+		42F1E66E21E684F400874CDC /* IletisimTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IletisimTVC.xib; sourceTree = "<group>"; };
+		77596BBD318E58F4F7F2656D /* Pods-Toprak Hotel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toprak Hotel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Toprak Hotel/Pods-Toprak Hotel.release.xcconfig"; sourceTree = "<group>"; };
+		EDF9D2974F96C2212B088478 /* Pods-Toprak Hotel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toprak Hotel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Toprak Hotel/Pods-Toprak Hotel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +127,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2C9B4327B3F669A1E7924B /* Pods_Toprak_Hotel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		420F645B21DE4E8000A5B038 /* RestaurantView */ = {
+			isa = PBXGroup;
+			children = (
+				420F645521DE4E5000A5B038 /* RestaurantNavVC.swift */,
+				420F645721DE4E6A00A5B038 /* RestaurantVC.swift */,
+			);
+			path = RestaurantView;
+			sourceTree = "<group>";
+		};
+		420F646221DE650D00A5B038 /* ToplantıView */ = {
+			isa = PBXGroup;
+			children = (
+				420F646321DE653300A5B038 /* ToplantiVC.swift */,
+				420F646521DE655E00A5B038 /* ToplantiNavVC.swift */,
+			);
+			path = "ToplantıView";
+			sourceTree = "<group>";
+		};
+		420F647121DE9EF700A5B038 /* BalayiView */ = {
+			isa = PBXGroup;
+			children = (
+				420F646D21DE9EDB00A5B038 /* BalayiNavVC.swift */,
+				420F646F21DE9EF400A5B038 /* BalayiVC.swift */,
+			);
+			path = BalayiView;
+			sourceTree = "<group>";
+		};
+		422DAC472216EAEC007914B5 /* Rezervasyon */ = {
+			isa = PBXGroup;
+			children = (
+				422DAC432216EAC2007914B5 /* rezervasyonNavVC.swift */,
+				422DAC452216EAE7007914B5 /* rezervasyonVC.swift */,
+			);
+			path = Rezervasyon;
+			sourceTree = "<group>";
+		};
+		4245E87C21E38FE80044956C /* EtkinliklerView */ = {
+			isa = PBXGroup;
+			children = (
+				4245E87821E38FC30044956C /* EtkinliklerVC.swift */,
+				4245E87A21E38FE20044956C /* EtkinliklerNavVC.swift */,
+				4245E87D21E392ED0044956C /* EtkinliklerTVC.swift */,
+				4225FD1921E4AD5F00DE73DF /* EtkinlikDetayVC.swift */,
+				4225FD1B21E4AFC200DE73DF /* EtkinlikDetayNavVC.swift */,
+			);
+			path = EtkinliklerView;
+			sourceTree = "<group>";
+		};
+		42A883B221DE26510039ADA5 /* OdalarView */ = {
+			isa = PBXGroup;
+			children = (
+				42A883AD21DE25FF0039ADA5 /* OdalarNavVC.swift */,
+				42A883B021DE264D0039ADA5 /* OdalarVC.swift */,
+				420F644C21DE34E300A5B038 /* OdalarTVC.swift */,
+			);
+			path = OdalarView;
+			sourceTree = "<group>";
+		};
+		42BFF2D821E63DD200577C73 /* KayakMerkeziView */ = {
+			isa = PBXGroup;
+			children = (
+				42BFF2D921E63E0700577C73 /* KayakMerkeziNavVC.swift */,
+				42BFF2DB21E63E1F00577C73 /* KayakMerkeziVC.swift */,
+			);
+			path = KayakMerkeziView;
+			sourceTree = "<group>";
+		};
 		42DBEE5B21DCBAE6001A5AC9 = {
 			isa = PBXGroup;
 			children = (
 				42DBEE6621DCBAE6001A5AC9 /* Toprak Hotel */,
 				42DBEE6521DCBAE6001A5AC9 /* Products */,
+				AB734257745D91838CF79408 /* Pods */,
+				B1E70FE5E0CAF6EDBC316DF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +223,28 @@
 			isa = PBXGroup;
 			children = (
 				42DBEE6721DCBAE6001A5AC9 /* AppDelegate.swift */,
-				42DBEE6921DCBAE6001A5AC9 /* ViewController.swift */,
+				420F645121DE422D00A5B038 /* junior.jpg */,
+				420F644F21DE422D00A5B038 /* standart.jpg */,
+				420F645021DE422D00A5B038 /* vip.jpg */,
+				420F646821DE9BFC00A5B038 /* 1t.jpg */,
+				420F646921DE9BFC00A5B038 /* 2t.jpg */,
+				420F646721DE9BFB00A5B038 /* 3t.jpg */,
+				420F645E21DE5C1400A5B038 /* 1r.jpg */,
+				420F645D21DE5C1400A5B038 /* 2r.jpg */,
+				420F645C21DE5C1300A5B038 /* 3r.jpg */,
+				4245E88121E3A6E90044956C /* e1.jpg */,
+				4245E87F21E3A6E90044956C /* e2.jpg */,
+				4245E88021E3A6E90044956C /* e3.jpg */,
+				4245E88221E3A6EA0044956C /* e4.jpg */,
+				42DBEE8E21DD00BE001A5AC9 /* 1.png */,
+				42DBEE8D21DD00BE001A5AC9 /* 2.png */,
+				42DBEE8921DD00BD001A5AC9 /* 3.png */,
+				420F647221DEA1C000A5B038 /* standart-oda-balayi-konsepti.jpg */,
+				42BFF2DD21E644BC00577C73 /* SkiMap.jpg */,
+				42DBEE8A21DD00BD001A5AC9 /* 4.png */,
+				42DBEE8B21DD00BD001A5AC9 /* 5.png */,
+				42DBEE8C21DD00BE001A5AC9 /* 6.png */,
+				42DBEE8221DCFC67001A5AC9 /* View */,
 				42DBEE6B21DCBAE6001A5AC9 /* Main.storyboard */,
 				42DBEE7121DCBAE8001A5AC9 /* Assets.xcassets */,
 				42DBEE7321DCBAE8001A5AC9 /* LaunchScreen.storyboard */,
@@ -67,6 +254,62 @@
 			path = "Toprak Hotel";
 			sourceTree = "<group>";
 		};
+		42DBEE8121DCFC4A001A5AC9 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				42DBEE7C21DCF31D001A5AC9 /* MainNavVC.swift */,
+				42DBEE7E21DCF337001A5AC9 /* MainVC.swift */,
+				42DBEE9721DD076A001A5AC9 /* MainTVC.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		42DBEE8221DCFC67001A5AC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42DBEE6921DCBAE6001A5AC9 /* GirisVC.swift */,
+				422DAC472216EAEC007914B5 /* Rezervasyon */,
+				42DBEE8121DCFC4A001A5AC9 /* MainView */,
+				42A883B221DE26510039ADA5 /* OdalarView */,
+				420F645B21DE4E8000A5B038 /* RestaurantView */,
+				420F646221DE650D00A5B038 /* ToplantıView */,
+				420F647121DE9EF700A5B038 /* BalayiView */,
+				4245E87C21E38FE80044956C /* EtkinliklerView */,
+				42BFF2D821E63DD200577C73 /* KayakMerkeziView */,
+				42F1E66821E6843200874CDC /* İletişim */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		42F1E66821E6843200874CDC /* İletişim */ = {
+			isa = PBXGroup;
+			children = (
+				42F1E66921E6849300874CDC /* IletisimVC.swift */,
+				42F1E66B21E684D200874CDC /* IletisimNavVC.swift */,
+				42F1E66D21E684F400874CDC /* IletisimTVC.swift */,
+				42F1E66E21E684F400874CDC /* IletisimTVC.xib */,
+			);
+			name = "İletişim";
+			path = "İletişim";
+			sourceTree = "<group>";
+		};
+		AB734257745D91838CF79408 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF9D2974F96C2212B088478 /* Pods-Toprak Hotel.debug.xcconfig */,
+				77596BBD318E58F4F7F2656D /* Pods-Toprak Hotel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1E70FE5E0CAF6EDBC316DF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000231C7354B554B5B077F65 /* Pods_Toprak_Hotel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42DBEE7921DCBAE8001A5AC9 /* Build configuration list for PBXNativeTarget "Toprak Hotel" */;
 			buildPhases = (
+				8DC216A725A03E3FD4217F07 /* [CP] Check Pods Manifest.lock */,
 				42DBEE6021DCBAE6001A5AC9 /* Sources */,
 				42DBEE6121DCBAE6001A5AC9 /* Frameworks */,
 				42DBEE6221DCBAE6001A5AC9 /* Resources */,
+				0D399DC010A2DCF9634970DA /* [CP] Embed Pods Frameworks */,
+				C6A562743130426F196F3739 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +345,11 @@
 				TargetAttributes = {
 					42DBEE6321DCBAE6001A5AC9 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,22 +376,137 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4245E88321E3A6EA0044956C /* e2.jpg in Resources */,
+				420F645F21DE5C1400A5B038 /* 3r.jpg in Resources */,
+				42DBEE9421DD00BE001A5AC9 /* 1.png in Resources */,
+				4245E88521E3A6EA0044956C /* e1.jpg in Resources */,
+				42DBEE9221DD00BE001A5AC9 /* 6.png in Resources */,
+				420F646C21DE9BFD00A5B038 /* 2t.jpg in Resources */,
 				42DBEE7521DCBAE8001A5AC9 /* LaunchScreen.storyboard in Resources */,
+				42DBEE9321DD00BE001A5AC9 /* 2.png in Resources */,
+				420F646021DE5C1400A5B038 /* 2r.jpg in Resources */,
 				42DBEE7221DCBAE8001A5AC9 /* Assets.xcassets in Resources */,
+				420F645321DE422E00A5B038 /* vip.jpg in Resources */,
 				42DBEE6D21DCBAE6001A5AC9 /* Main.storyboard in Resources */,
+				420F645221DE422E00A5B038 /* standart.jpg in Resources */,
+				4245E88621E3A6EA0044956C /* e4.jpg in Resources */,
+				42BFF2DE21E644BC00577C73 /* SkiMap.jpg in Resources */,
+				420F646121DE5C1400A5B038 /* 1r.jpg in Resources */,
+				42F1E67021E684F400874CDC /* IletisimTVC.xib in Resources */,
+				420F645421DE422E00A5B038 /* junior.jpg in Resources */,
+				420F646A21DE9BFD00A5B038 /* 3t.jpg in Resources */,
+				420F646B21DE9BFD00A5B038 /* 1t.jpg in Resources */,
+				42DBEE9121DD00BE001A5AC9 /* 5.png in Resources */,
+				4245E88421E3A6EA0044956C /* e3.jpg in Resources */,
+				42DBEE9021DD00BE001A5AC9 /* 4.png in Resources */,
+				42DBEE8F21DD00BE001A5AC9 /* 3.png in Resources */,
+				420F647321DEA1C100A5B038 /* standart-oda-balayi-konsepti.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D399DC010A2DCF9634970DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Toprak Hotel/Pods-Toprak Hotel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Toprak Hotel/Pods-Toprak Hotel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DC216A725A03E3FD4217F07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Toprak Hotel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A562743130426F196F3739 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Toprak Hotel/Pods-Toprak Hotel-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Toprak Hotel/Pods-Toprak Hotel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42DBEE6021DCBAE6001A5AC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420F647021DE9EF400A5B038 /* BalayiVC.swift in Sources */,
+				420F646E21DE9EDB00A5B038 /* BalayiNavVC.swift in Sources */,
+				420F646621DE655E00A5B038 /* ToplantiNavVC.swift in Sources */,
 				42DBEE7021DCBAE6001A5AC9 /* Toprak_Hotel.xcdatamodeld in Sources */,
-				42DBEE6A21DCBAE6001A5AC9 /* ViewController.swift in Sources */,
+				42DBEE7F21DCF337001A5AC9 /* MainVC.swift in Sources */,
+				4245E87921E38FC30044956C /* EtkinliklerVC.swift in Sources */,
+				42F1E66F21E684F400874CDC /* IletisimTVC.swift in Sources */,
+				4245E87E21E392ED0044956C /* EtkinliklerTVC.swift in Sources */,
+				42A883AE21DE25FF0039ADA5 /* OdalarNavVC.swift in Sources */,
+				422DAC442216EAC2007914B5 /* rezervasyonNavVC.swift in Sources */,
+				420F646421DE653300A5B038 /* ToplantiVC.swift in Sources */,
+				420F644D21DE34E300A5B038 /* OdalarTVC.swift in Sources */,
+				42F1E66A21E6849300874CDC /* IletisimVC.swift in Sources */,
+				42BFF2DC21E63E1F00577C73 /* KayakMerkeziVC.swift in Sources */,
+				42DBEE7D21DCF31D001A5AC9 /* MainNavVC.swift in Sources */,
+				4245E87B21E38FE20044956C /* EtkinliklerNavVC.swift in Sources */,
+				42DBEE6A21DCBAE6001A5AC9 /* GirisVC.swift in Sources */,
+				42A883B121DE264D0039ADA5 /* OdalarVC.swift in Sources */,
+				422DAC462216EAE7007914B5 /* rezervasyonVC.swift in Sources */,
+				420F645621DE4E5000A5B038 /* RestaurantNavVC.swift in Sources */,
+				4225FD1C21E4AFC200DE73DF /* EtkinlikDetayNavVC.swift in Sources */,
+				42DBEE9821DD076A001A5AC9 /* MainTVC.swift in Sources */,
 				42DBEE6821DCBAE6001A5AC9 /* AppDelegate.swift in Sources */,
+				42F1E66C21E684D200874CDC /* IletisimNavVC.swift in Sources */,
+				4225FD1A21E4AD5F00DE73DF /* EtkinlikDetayVC.swift in Sources */,
+				42BFF2DA21E63E0700577C73 /* KayakMerkeziNavVC.swift in Sources */,
+				420F645821DE4E6A00A5B038 /* RestaurantVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +650,7 @@
 		};
 		42DBEE7A21DCBAE8001A5AC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF9D2974F96C2212B088478 /* Pods-Toprak Hotel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,12 +663,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Freelance.Toprak-Hotel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		42DBEE7B21DCBAE8001A5AC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77596BBD318E58F4F7F2656D /* Pods-Toprak Hotel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,7 +682,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Freelance.Toprak-Hotel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
