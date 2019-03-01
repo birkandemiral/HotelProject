@@ -40,10 +40,7 @@ class RestaurantVC: UIViewController {
         }
         
         Slider.setImageInputs(localSourceRest)
-        
-        let recognizer = UITapGestureRecognizer(target: self, action: #selector(MainVC.didTap))
-        Slider.addGestureRecognizer(recognizer)
-        
+    
         //Image Slider END
         
         //Navigation Controller Transparent

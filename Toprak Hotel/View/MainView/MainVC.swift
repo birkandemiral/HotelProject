@@ -20,55 +20,78 @@ class MainVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return imageArray.count
+        return imageArray.count + 1
         
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! MainTVC
+        if indexPath.row == 0 {
+            
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! mainTopTVC
+            
+            return cell
+            
+        }else {
+            
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cell2", for: indexPath) as! mainBottomTVC
+            
+            cell.icon.image = UIImage(named: imageArray[indexPath.row - 1])
+            
+            cell.label.text = buttonArray[indexPath.row - 1]
+            
+            return cell
+            
+        }
+
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if indexPath.row == 0{
+            return 275
+        }
+        else{
         
-        cell.icon.image = UIImage(named: imageArray[indexPath.row])
+            return 80
+            
+        }
         
-        cell.label.text = buttonArray[indexPath.row]
-        
-        return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         SVProgressHUD.show(withStatus: "Yükleniyor...")
 
-        if indexPath.row == 0 {
+        if indexPath.row == 1 {
             
             let goVC = self.storyboard?.instantiateViewController(withIdentifier: "OdalarNavVC") as! OdalarNavVC
             self.present(goVC,animated: true)
             
-        }else if indexPath.row == 1 {
+        }else if indexPath.row == 2 {
             
             let goVC = self.storyboard?.instantiateViewController(withIdentifier: "RestaurantNavVC") as! RestaurantNavVC
             self.present(goVC,animated: true)
             
-        }else if indexPath.row == 2{
+        }else if indexPath.row == 3{
             
             let goVC = self.storyboard?.instantiateViewController(withIdentifier: "ToplantiNavVC") as! ToplantiNavVC
             self.present(goVC,animated: true)
             
-        }else if indexPath.row == 3{
+        }else if indexPath.row == 4{
             
             let goVC = self.storyboard?.instantiateViewController(withIdentifier: "BalayiNavVC") as! BalayiNavVC
             self.present(goVC,animated: true)
             
-        }else if indexPath.row == 5{
+        }else if indexPath.row == 6{
             
             let goVC = self.storyboard?.instantiateViewController(withIdentifier: "EtkinliklerNavVC") as! EtkinliklerNavVC
             self.present(goVC,animated: true)
             
-        }else if indexPath.row == 6 {
+        }else if indexPath.row == 7 {
             
             let goVC = self.storyboard?.instantiateViewController(withIdentifier: "KayakMerkeziNavVC") as! KayakMerkeziNavVC
             self.present(goVC,animated: true)
             
-        }else if indexPath.row == 7{
+        }else if indexPath.row == 8{
             
             let goVC = self.storyboard?.instantiateViewController(withIdentifier: "IletisimNavVC") as! IletisimNavVC
             self.present(goVC,animated: true)
@@ -77,43 +100,11 @@ class MainVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     }
         
 
-    @IBOutlet weak var ImageSlider: ImageSlideshow!
     
     @IBOutlet weak var tableView: UITableView!
-    
-    let localSource = [ImageSource(imageString: "1.png")!, ImageSource(imageString: "2.png")!, ImageSource(imageString: "3.png")!, ImageSource(imageString: "4.png")!, ImageSource(imageString: "5.png")!, ImageSource(imageString: "6.png")!]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        // Image Slider
-        
-        ImageSlider.slideshowInterval = 5.0
-        
-        ImageSlider.pageIndicatorPosition = .init(horizontal: .center, vertical: .under)
-        
-        ImageSlider.contentScaleMode = UIView.ContentMode.scaleToFill
-        
-        let pageControl = UIPageControl()
-        
-        pageControl.currentPageIndicatorTintColor = UIColor.lightGray
-        
-        pageControl.pageIndicatorTintColor = UIColor.white
-        
-        ImageSlider.pageIndicator = pageControl
-        
-        // optional way to show activity indicator during image load (skipping the line will show no activity indicator)
-        ImageSlider.activityIndicator = DefaultActivityIndicator()
-        ImageSlider.currentPageChanged = { page in
-        }
-        
-        ImageSlider.setImageInputs(localSource)
-        
-        let recognizer = UITapGestureRecognizer(target: self, action: #selector(MainVC.didTap))
-        ImageSlider.addGestureRecognizer(recognizer)
-        
-        //Image Slider END
         
         //Navigation Controller Transparent
         
@@ -132,6 +123,11 @@ class MainVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         self.navigationItem.titleView = imageView
         
         
+        tableView.register(UINib(nibName: "mainTopTVC", bundle: nil), forCellReuseIdentifier: "cell")
+        
+        tableView.register(UINib(nibName: "mainBottomTVC", bundle: nil), forCellReuseIdentifier: "cell2 ")
+        
+        
     }
     override var prefersStatusBarHidden: Bool{
         
@@ -139,10 +135,5 @@ class MainVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         
     }
 
-    @objc func didTap() {
-        let fullScreenController = ImageSlider.presentFullScreenController(from: self)
-        // set the activity indicator for full screen controller (skipping the line will show no activity indicator)
-        fullScreenController.slideshow.activityIndicator = DefaultActivityIndicator(style: .white, color: nil)
-    }
     
 }

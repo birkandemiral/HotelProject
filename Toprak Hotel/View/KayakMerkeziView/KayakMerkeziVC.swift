@@ -43,9 +43,6 @@ class KayakMerkeziVC: UIViewController {
         
         imageViewKM.setImageInputs(localSource)
         
-        let recognizer = UITapGestureRecognizer(target: self, action: #selector(MainVC.didTap))
-        imageViewKM.addGestureRecognizer(recognizer)
-        
         //Navigation Controller Transparent
         
         self.navigationController?.navigationBar.setBackgroundImage(UIImage() , for: .default)

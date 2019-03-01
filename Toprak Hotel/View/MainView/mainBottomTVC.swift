@@ -1,17 +1,19 @@
 //
-//  MainTVC.swift
+//  mainBottomTVC.swift
 //  Toprak Hotel
 //
-//  Created by birkan demiral on 2.01.2019.
+//  Created by birkan demiral on 1.03.2019.
 //  Copyright © 2019 Freelance. All rights reserved.
 //
 
 import UIKit
 
-class MainTVC: UITableViewCell {
+class mainBottomTVC: UITableViewCell {
+    
+    @IBOutlet weak var label: UILabel!
     
     @IBOutlet weak var icon: UIImageView!
-    @IBOutlet weak var label: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -22,5 +24,5 @@ class MainTVC: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
 }

@@ -25,6 +25,10 @@
 		420F646E21DE9EDB00A5B038 /* BalayiNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F646D21DE9EDB00A5B038 /* BalayiNavVC.swift */; };
 		420F647021DE9EF400A5B038 /* BalayiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F646F21DE9EF400A5B038 /* BalayiVC.swift */; };
 		420F647321DEA1C100A5B038 /* standart-oda-balayi-konsepti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F647221DEA1C000A5B038 /* standart-oda-balayi-konsepti.jpg */; };
+		4224FAB622290AEA00515114 /* mainTopTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4224FAB422290AEA00515114 /* mainTopTVC.swift */; };
+		4224FAB722290AEA00515114 /* mainTopTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4224FAB522290AEA00515114 /* mainTopTVC.xib */; };
+		4224FABA22290AFB00515114 /* mainBottomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4224FAB822290AFB00515114 /* mainBottomTVC.swift */; };
+		4224FABB22290AFB00515114 /* mainBottomTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4224FAB922290AFB00515114 /* mainBottomTVC.xib */; };
 		4225FD1A21E4AD5F00DE73DF /* EtkinlikDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4225FD1921E4AD5F00DE73DF /* EtkinlikDetayVC.swift */; };
 		4225FD1C21E4AFC200DE73DF /* EtkinlikDetayNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4225FD1B21E4AFC200DE73DF /* EtkinlikDetayNavVC.swift */; };
 		422DAC442216EAC2007914B5 /* rezervasyonNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422DAC432216EAC2007914B5 /* rezervasyonNavVC.swift */; };
@@ -55,7 +59,6 @@
 		42DBEE9221DD00BE001A5AC9 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE8C21DD00BE001A5AC9 /* 6.png */; };
 		42DBEE9321DD00BE001A5AC9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE8D21DD00BE001A5AC9 /* 2.png */; };
 		42DBEE9421DD00BE001A5AC9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DBEE8E21DD00BE001A5AC9 /* 1.png */; };
-		42DBEE9821DD076A001A5AC9 /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DBEE9721DD076A001A5AC9 /* MainTVC.swift */; };
 		42F1E66A21E6849300874CDC /* IletisimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F1E66921E6849300874CDC /* IletisimVC.swift */; };
 		42F1E66C21E684D200874CDC /* IletisimNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F1E66B21E684D200874CDC /* IletisimNavVC.swift */; };
 		42F1E66F21E684F400874CDC /* IletisimTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F1E66D21E684F400874CDC /* IletisimTVC.swift */; };
@@ -81,6 +84,10 @@
 		420F646D21DE9EDB00A5B038 /* BalayiNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalayiNavVC.swift; sourceTree = "<group>"; };
 		420F646F21DE9EF400A5B038 /* BalayiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalayiVC.swift; sourceTree = "<group>"; };
 		420F647221DEA1C000A5B038 /* standart-oda-balayi-konsepti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "standart-oda-balayi-konsepti.jpg"; sourceTree = "<group>"; };
+		4224FAB422290AEA00515114 /* mainTopTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTopTVC.swift; sourceTree = "<group>"; };
+		4224FAB522290AEA00515114 /* mainTopTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainTopTVC.xib; sourceTree = "<group>"; };
+		4224FAB822290AFB00515114 /* mainBottomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainBottomTVC.swift; sourceTree = "<group>"; };
+		4224FAB922290AFB00515114 /* mainBottomTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainBottomTVC.xib; sourceTree = "<group>"; };
 		4225FD1921E4AD5F00DE73DF /* EtkinlikDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkinlikDetayVC.swift; sourceTree = "<group>"; };
 		4225FD1B21E4AFC200DE73DF /* EtkinlikDetayNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkinlikDetayNavVC.swift; sourceTree = "<group>"; };
 		422DAC432216EAC2007914B5 /* rezervasyonNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rezervasyonNavVC.swift; sourceTree = "<group>"; };
@@ -113,7 +120,6 @@
 		42DBEE8C21DD00BE001A5AC9 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		42DBEE8D21DD00BE001A5AC9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		42DBEE8E21DD00BE001A5AC9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		42DBEE9721DD076A001A5AC9 /* MainTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
 		42F1E66921E6849300874CDC /* IletisimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IletisimVC.swift; sourceTree = "<group>"; };
 		42F1E66B21E684D200874CDC /* IletisimNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IletisimNavVC.swift; sourceTree = "<group>"; };
 		42F1E66D21E684F400874CDC /* IletisimTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IletisimTVC.swift; sourceTree = "<group>"; };
@@ -259,7 +265,10 @@
 			children = (
 				42DBEE7C21DCF31D001A5AC9 /* MainNavVC.swift */,
 				42DBEE7E21DCF337001A5AC9 /* MainVC.swift */,
-				42DBEE9721DD076A001A5AC9 /* MainTVC.swift */,
+				4224FAB822290AFB00515114 /* mainBottomTVC.swift */,
+				4224FAB922290AFB00515114 /* mainBottomTVC.xib */,
+				4224FAB422290AEA00515114 /* mainTopTVC.swift */,
+				4224FAB522290AEA00515114 /* mainTopTVC.xib */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -377,9 +386,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4245E88321E3A6EA0044956C /* e2.jpg in Resources */,
+				4224FABB22290AFB00515114 /* mainBottomTVC.xib in Resources */,
 				420F645F21DE5C1400A5B038 /* 3r.jpg in Resources */,
 				42DBEE9421DD00BE001A5AC9 /* 1.png in Resources */,
 				4245E88521E3A6EA0044956C /* e1.jpg in Resources */,
+				4224FAB722290AEA00515114 /* mainTopTVC.xib in Resources */,
 				42DBEE9221DD00BE001A5AC9 /* 6.png in Resources */,
 				420F646C21DE9BFD00A5B038 /* 2t.jpg in Resources */,
 				42DBEE7521DCBAE8001A5AC9 /* LaunchScreen.storyboard in Resources */,
@@ -495,13 +506,14 @@
 				42F1E66A21E6849300874CDC /* IletisimVC.swift in Sources */,
 				42BFF2DC21E63E1F00577C73 /* KayakMerkeziVC.swift in Sources */,
 				42DBEE7D21DCF31D001A5AC9 /* MainNavVC.swift in Sources */,
+				4224FAB622290AEA00515114 /* mainTopTVC.swift in Sources */,
 				4245E87B21E38FE20044956C /* EtkinliklerNavVC.swift in Sources */,
 				42DBEE6A21DCBAE6001A5AC9 /* GirisVC.swift in Sources */,
 				42A883B121DE264D0039ADA5 /* OdalarVC.swift in Sources */,
 				422DAC462216EAE7007914B5 /* rezervasyonVC.swift in Sources */,
 				420F645621DE4E5000A5B038 /* RestaurantNavVC.swift in Sources */,
+				4224FABA22290AFB00515114 /* mainBottomTVC.swift in Sources */,
 				4225FD1C21E4AFC200DE73DF /* EtkinlikDetayNavVC.swift in Sources */,
-				42DBEE9821DD076A001A5AC9 /* MainTVC.swift in Sources */,
 				42DBEE6821DCBAE6001A5AC9 /* AppDelegate.swift in Sources */,
 				42F1E66C21E684D200874CDC /* IletisimNavVC.swift in Sources */,
 				4225FD1A21E4AD5F00DE73DF /* EtkinlikDetayVC.swift in Sources */,
@@ -654,13 +666,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9JNTTSY4PD;
+				DEVELOPMENT_TEAM = HNB7BY48WV;
 				INFOPLIST_FILE = "Toprak Hotel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Freelance.Toprak-Hotel";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Freelance.Toprak-Hotelasdad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -673,13 +685,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9JNTTSY4PD;
+				DEVELOPMENT_TEAM = HNB7BY48WV;
 				INFOPLIST_FILE = "Toprak Hotel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Freelance.Toprak-Hotel";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Freelance.Toprak-Hotelasdad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
